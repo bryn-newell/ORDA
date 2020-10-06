@@ -1,5 +1,3 @@
-const { of } = require("core-js/fn/array");
-
 module.exports = {
   root: true,
   env: {
