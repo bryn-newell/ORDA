@@ -17,14 +17,13 @@
 
 <script>
 export default {
-	name: 'Header'
 };
 </script>
 
 <style lang="scss">
 .header {
-	display: flex;
 	align-items: center;
+	display: flex;
 	h1 {
 		margin: 0 20px 0 0;
 		padding: 0;
