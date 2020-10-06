@@ -10,8 +10,16 @@ module.exports = {
   parserOptions: {
     parser: 'babel-eslint',
   },
+  plugins: [
+    'vue-a11y'
+  ],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'max-len': 'off',
+    'no-tabs': 'off',
+    'indent': ['warn', 'tab'],
+    'comma-dangle': 'off',
+    'semi': 'warn'
   },
 };
