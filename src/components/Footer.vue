@@ -11,11 +11,10 @@
 			</ul>
 		</div>
 		<div class="footer-text">
-			<ul>
-				<li>Terms of Use</li>
-				<li>Privacy Policy</li>
-				<li>Home</li>
-			</ul>
+			<nav>
+				<router-link to="/terms">Terms of Use</router-link>
+				<router-link to="/privacyPolicy">Privacy Policy</router-link>
+			</nav>
 			<p>© {{year}} ORDA</p>
 		</div>
 	</footer>
@@ -38,24 +37,28 @@ export default {
 			h3 {
 				margin-left: 40px;
 			}
+			ul {
+				list-style: none;
+			}
 		}
 		.footer-text {
 			display: flex;
 			justify-content: space-between;
-			ul {
-				display: flex;
-				margin: 0;
-				padding: 0;
-				li {
-					margin: 0 10px;
+			nav {
+				a {
+					color: black;
+					text-decoration: none;
+					&:hover {
+						text-decoration: underline;
+					}
+					&:first-child {
+						margin-right: 20px;
+					}
 				}
 			}
 			p {
 				margin: 0;
 			}
-		}
-		ul {
-			list-style: none;
 		}
 	}
 </style>
