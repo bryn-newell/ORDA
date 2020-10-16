@@ -1,16 +1,13 @@
 <template>
 	<header class="header">
-		<h1>ORDA</h1>
+		<router-link to="/"><h1>ORDA</h1></router-link>
 		<nav>
-			<ul>
-				<li>Our Company</li>
-				<li>Our Services</li>
-				<li>iGPS</li>
-				<li>Our Clients</li>
-				<li>Publications</li>
-				<li>Our People</li>
-				<li>Contact Us</li>
-			</ul>
+			<router-link to="/company">Our Company</router-link>
+			<router-link to="/services">Our Services</router-link>
+			<router-link to="/igps">iGPS</router-link>
+			<router-link to="/clients">Our Clients</router-link>
+			<router-link to="/publications">Publications</router-link>
+			<router-link to="/people">Our People</router-link>
 		</nav>
 	</header>
 </template>
@@ -19,19 +16,21 @@
 .header {
 	align-items: center;
 	display: flex;
+	a {
+		text-decoration: none;
+		color: black;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 	h1 {
 		margin: 0 20px 0 0;
 		padding: 0;
 	}
 	nav {
+		display: flex;
 		flex-grow: 1;
-		ul {
-			display: flex;
-			justify-content: space-between;
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
+		justify-content: space-between;
 	}
 }
 </style>
