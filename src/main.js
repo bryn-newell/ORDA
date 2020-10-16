@@ -5,6 +5,7 @@ import App from './App.vue';
 import Home from './components/Home.vue';
 import Company from './components/Company.vue';
 import Services from './components/Services.vue';
+import People from './components/People.vue';
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter);
@@ -17,7 +18,7 @@ const router = new VueRouter({
 		// { path: '/igps', component: iGPS },
 		// { path: '/clients', component: Clients },
 		// { path: '/publications', component: Publications },
-		// { path: '/people', component: People },
+		{ path: '/people', component: People },
 		// { path: '/contact', component: Contact },
 	]
 });
