@@ -17,13 +17,20 @@
 .header {
 	align-items: center;
 	display: flex;
+	a {
+		text-decoration: none;
+		color: black;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 	h1 {
 		margin: 0 20px 0 0;
 		padding: 0;
 	}
 	nav {
-		flex-grow: 1;
 		display: flex;
+		flex-grow: 1;
 		justify-content: space-between;
 	}
 }
