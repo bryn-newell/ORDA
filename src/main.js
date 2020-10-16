@@ -7,6 +7,7 @@ import Company from './components/Company.vue';
 import Services from './components/Services.vue';
 import People from './components/People.vue';
 import PrivacyPolicy from './components/PrivacyPolicy.vue';
+import Terms from './components/Terms.vue';
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter);
@@ -20,7 +21,8 @@ const router = new VueRouter({
 		// { path: '/clients', component: Clients },
 		// { path: '/publications', component: Publications },
 		{ path: '/people', component: People },
-		{ path: '/privacyPolicy', component: PrivacyPolicy }
+		{ path: '/privacyPolicy', component: PrivacyPolicy },
+		{ path: '/terms', component: Terms }
 	]
 });
 

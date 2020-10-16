@@ -8,7 +8,6 @@
 			<router-link to="/clients">Our Clients</router-link>
 			<router-link to="/publications">Publications</router-link>
 			<router-link to="/people">Our People</router-link>
-			<router-link to="/contact">Contact Us</router-link>
 		</nav>
 	</header>
 </template>
