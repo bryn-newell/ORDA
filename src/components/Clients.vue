@@ -11,13 +11,13 @@
 			</div>
 		</div>
 		<h2>Client Comments</h2>
-		<q>Through iGPS™ we have more information about the emotional state of our employees than any of our competitors. This information is more accessible and more detailed than even our financial information.</q>
-		<q>iGPS™ is light years ahead of anything its competitors have on the drawing board.</q>
-		<q>iGPS™ has the power to transform how we, in health care, manage people.</q>
-		<q>More than anything else we’ve done, iGPS™ is responsible for the irrevocable transformation of our organization.</q>
-		<q>With stratifications by demographic groups and question groupings, we can identify that a specific demographic group of employees on the second shift are in high stages of burnout and corporate disengagement. We get them together, solved their problem and move on. Our turnover rates are 10 percentage points below the facilities around us. And as mentioned, contract labor costs were reduced by $5 million/year instantly.</q>
-		<q>An advantage iGPS™ has over its competitors is its ability, at a managerial level, to immediately see areas of necessary focus. You do not have to scroll through various parts of a CD and sift through the data to see what areas need focus to affect positive change. You are able to get results immediately upon closure of the assessment.</q>
-		<q>Hearing you describe iGPS™ doesn’t give us an appreciation for the power of the system. Seeing it really drives it home. You see the power of the tool. When you hear someone say, “We have this automated, powerful survey tool”, it’s easy to have your eyes glaze over because it sounds like rhetoric – something we’ve heard before. Seeing iGPS™ really shows the power and the difference of what you have compared to your competition.</q>
+		<p>"Through iGPS™ we have more information about the emotional state of our employees than any of our competitors. This information is more accessible and more detailed than even our financial information."</p>
+		<p>"iGPS™ is light years ahead of anything its competitors have on the drawing board."</p>
+		<p>"iGPS™ has the power to transform how we, in health care, manage people."</p>
+		<p>"More than anything else we’ve done, iGPS™ is responsible for the irrevocable transformation of our organization."</p>
+		<p>"With stratifications by demographic groups and puestion groupings, we can identify that a specific demographic group of employees on the second shift are in high stages of burnout and corporate disengagement. We get them together, solved their problem and move on. Our turnover rates are 10 percentage points below the facilities around us. And as mentioned, contract labor costs were reduced by $5 million/year instantly."</p>
+		<p>"An advantage iGPS™ has over its competitors is its ability, at a managerial level, to immediately see areas of necessary focus. You do not have to scroll through various parts of a CD and sift through the data to see what areas need focus to affect positive change. You are able to get results immediately upon closure of the assessment."</p>
+		<p>"Hearing you describe iGPS™ doesn’t give us an appreciation for the power of the system. Seeing it really drives it home. You see the power of the tool. When you hear someone say, “We have this automated, powerful survey tool”, it’s easy to have your eyes glaze over because it sounds like rhetoric – something we’ve heard before. Seeing iGPS™ really shows the power and the difference of what you have compared to your competition."</p>
 	</section>
 </template>
 
