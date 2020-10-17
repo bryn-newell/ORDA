@@ -1,7 +1,9 @@
 <template>
 	<div id="app">
 		<Header />
-		<router-view></router-view>
+		<main class="main">
+			<router-view></router-view>
+		</main>
 		<Footer />
 	</div>
 </template>
@@ -19,23 +21,41 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 	*, *:before, *:after {
 		box-sizing: border-box
 	}
 
 	body {
 		margin: 0;
+		color: $black;
 	}
 
 	h1, h2, h3, h4 {
 		font-weight: normal;
 	}
 
+	a {
+			color: $black;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
 	#app {
 		font-family: Avenir, Helvetica, Arial, sans-serif;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 		text-align: center;
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	}
+
+	.main {
+		padding: 20px;
+		text-align: left;
+		flex-grow: 1;
 	}
 </style>

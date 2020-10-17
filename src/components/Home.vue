@@ -1,18 +1,18 @@
 <template>
-	<main>
-		<section class="main" :style="`backgroundImage: url(${heroImg})`">
+	<section>
+		<section class="home" :style="`backgroundImage: url(${heroImg})`">
 			<div class="headline">
 				<img :src="iGPS" alt="iGPS">
 				<p>A cutting edge organizational assessment tool at your fingertips.</p>
 			</div>
 			<div class="cta">
 				<p>What can iGPS do for your organization?</p>
-				<button>Learn More</button>
+				<router-link to="/services">Learn More</router-link>
 			</div>
 			<p class="quote"><q>More than anything else we've done, iGPS is responsible for the irrevocable transformation of our organization.</q><br>-- satisfied client</p>
 		</section>
 		<Company />
-	</main>
+	</section>
 </template>
 
 <script>
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style lang="scss">
-	.main {
+	.home {
 		background-size: cover;
 		background-position: 0%;
 		display: flex;
@@ -42,20 +42,22 @@ export default {
 		height: 50vh;
 		justify-content: space-between;
 		.headline {
-			text-align: left;
 			p {
 				margin: 0 0 0 10px;
 			}
 		}
 		.cta {
-			p {
-				margin-top: 0;
-				margin-bottom: 5px;
-			}
-			button {
-				border: none;
+			text-align: center;
+			a {
 				border-radius: 5px;
+				background-color: $gray-600;
+				color: $white;
+				font-weight: 600;
 				padding: 8px 10px;
+				&:hover {
+					background-color: $gray-400;
+					text-decoration: none;
+				}
 			}
 		}
 		.quote {

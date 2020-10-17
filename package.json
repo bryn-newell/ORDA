@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.3",
     "vue": "^2.6.11",
     "vue-router": "^3.4.6"
   },
@@ -23,7 +25,6 @@
     "eslint-plugin-vue": "^6.2.2",
     "eslint-plugin-vue-a11y": "0.0.31",
     "sass": "^1.26.12",
-    "sass-loader": "^10.0.2",
     "vue-template-compiler": "^2.6.11"
   }
 }

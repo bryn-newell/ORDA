@@ -1,4 +1,11 @@
 module.exports = {
+	css: {
+		loaderOptions: {
+			sass: {
+				additionalData: '@import "~@/styles/variables.scss";',
+			},
+		},
+	},
 	configureWebpack: {
 		module: {
 			rules: [
