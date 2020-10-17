@@ -3,7 +3,6 @@
 		<div class="contact">
 			<h3>ORDA</h3>
 			<ul>
-				<li>Main Office:</li>
 				<li>Organization Research and Development Associates</li>
 				<li>5530 Racquet Lane Boulder CO 80303</li>
 				<li>Attn: Robert Newell</li>
@@ -32,29 +31,25 @@ export default {
 
 <style lang="scss">
 	.footer {
+		margin-top: 20px;
+		background-color: $blue-600;
+		color: $white;
+		padding: 10px 40px 10px 60px;
+		a {
+			color: $white;
+		}
 		.contact {
 			text-align: left;
-			h3 {
-				margin-left: 40px;
-			}
 			ul {
 				list-style: none;
+				padding: 0;
 			}
 		}
 		.footer-text {
 			display: flex;
 			justify-content: space-between;
-			nav {
-				a {
-					color: black;
-					text-decoration: none;
-					&:hover {
-						text-decoration: underline;
-					}
-					&:first-child {
-						margin-right: 20px;
-					}
-				}
+			nav a:first-child {
+				margin-right: 20px;
 			}
 			p {
 				margin: 0;
