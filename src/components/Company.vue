@@ -1,10 +1,11 @@
 <template>
 	<div class="company">
 		<section>
-      <div></div>
-      <div>Improve Employee Satisfaction & Overall Accountability</div>
-      <div>Icon goes here</div>
-      <div>While on the surface, the overall health of a company may be on target, underlying dissatisfaction in hidden areas can lead to unforeseen drops in profitability due to lack of engagement, burnout and turnover. An example from the Healthcare industry, specifically hospital systems, is the loss of one nurse. This loss can cost a hospital $90,000 to $145,000 per nurse, depending on specialty.</div>
+      <div class="bluebar">&nbsp;
+        <div class="sectitle">Improve Employee Satisfaction & Overall Accountability</div>
+        <div class="iconone">Icon goes here</div>
+        <div class="sectext">While on the surface, the overall health of a company may be on target, underlying dissatisfaction in hidden areas can lead to unforeseen drops in profitability due to lack of engagement, burnout and turnover. An example from the Healthcare industry, specifically hospital systems, is the loss of one nurse. This loss can cost a hospital $90,000 to $145,000 per nurse, depending on specialty.</div>
+      </div>
     </section>
     <section class="overview">
 			<h2>Overview of ORDA</h2>
@@ -64,4 +65,24 @@
 			margin-left: auto;
 		}
 	}
+  .bluebar {
+    background-color: blue;
+    width: 100%;
+    Height: 70px;
+  }
+  .sectitle {
+    text-align: center;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 120%;
+  }
+  .iconone {
+    text-align: center;
+  }
+  .sectext {
+    text-align: center;
+  }
 </style>
