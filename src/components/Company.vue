@@ -1,6 +1,12 @@
 <template>
 	<div class="company">
-		<section class="overview">
+		<section>
+      <div></div>
+      <div>Improve Employee Satisfaction & Overall Accountability</div>
+      <div>Icon goes here</div>
+      <div>While on the surface, the overall health of a company may be on target, underlying dissatisfaction in hidden areas can lead to unforeseen drops in profitability due to lack of engagement, burnout and turnover. An example from the Healthcare industry, specifically hospital systems, is the loss of one nurse. This loss can cost a hospital $90,000 to $145,000 per nurse, depending on specialty.</div>
+    </section>
+    <section class="overview">
 			<h2>Overview of ORDA</h2>
 			<p>Organizations face a myriad of challenges. Employee accountability & overall satisfaction are some of these. While on the surface, the overall health of a company may be on target, underlying dissatisfaction in hidden areas can lead to unforeseen drops in profitability due to lack of engagement, burnout and turnover. An example from the Healthcare industry, specifically hospital systems, is the loss of one nurse. This loss can cost a hospital $90,000 to $145,000 per nurse, depending on specialty.</p>
 			<p>Proactively managing culture reduces burnout, increases job involvement, improves trust, and increases customer satisfaction. Clients report significant results:</p>
