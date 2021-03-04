@@ -1,7 +1,7 @@
 <template>
 	<section class="services">
 		<section>
-			<h2>Our Services</h2>
+			<h2>Our Service</h2>
 			<p>Through data and results collected by iGPS™ and face to face interviews, our clients enjoy clear insight into the hidden dynamics that exist in their organizations. They experience an ability to focus their efforts on the areas of their organizations that are preventing them from getting to the next level. The proven benefits include the ability to drastically increase retention of the best and brightest employees, which includes significantly reducing the cost of recruiting and training new employees.</p>
 			<h3>Organizational Assessment & Diagnosis</h3>
 			<p>From the total organization to the smallest department, we provide an accurate, confidential assessment of strengths and needs. We assist the organization in developing specific and detailed strategies to address the immediate and future needs of the organization.</p>
