@@ -1,8 +1,14 @@
 <template>
 	<section class="services">
 		<section>
-			<h2>Our Service</h2>
-			<p>Through data and results collected by iGPS™ and face to face interviews, our clients enjoy clear insight into the hidden dynamics that exist in their organizations. They experience an ability to focus their efforts on the areas of their organizations that are preventing them from getting to the next level. The proven benefits include the ability to drastically increase retention of the best and brightest employees, which includes significantly reducing the cost of recruiting and training new employees.</p>
+		<div class="holdertwo">&nbsp;
+        <div class="hdtime"><p>Our clients enjoy clear insight into the hidden dynamics that exist in their organizations. They experience an ability to focus their efforts on the areas of their organizations that are preventing them from getting to the next level. The proven benefits include the ability to drastically increase retention of the best and brightest employees, which includes significantly reducing the cost of recruiting and training new employees.</p>
+		</div>
+        <div class="doody"><img src="../assets/6-Next Level.svg" alt="Next Level"></div>
+        <div class="howdy">Focus on the next level</div>
+      </div>
+		</section>
+		<section>
 			<h3>Organizational Assessment & Diagnosis</h3>
 			<p>From the total organization to the smallest department, we provide an accurate, confidential assessment of strengths and needs. We assist the organization in developing specific and detailed strategies to address the immediate and future needs of the organization.</p>
 			<h3>Team Building</h3>
@@ -22,6 +28,21 @@
 			<h3>Employee Engagement</h3>
 			<p>Most people in organizations either underestimate the power they have and/or they don't know how to use it. We offer a unique perspective on power and influence that is well received and highly effective.</p>
 		</section>
+	<section>
+		<div class="holderone">&nbsp;
+        <div class="howdy">Core Values</div>
+        <div class="doody"><img src="../assets/16-Core values.svg" alt="Core Values"></div>
+        <div class="hdtime"><p>ORDA maintains the highest level of professionalism and confidentiality. Our core values include:</p>
+			<ul>
+				<li>Integrity</li>
+				<li>Creativity</li>
+				<li>Family and Work-Life Balance</li>
+				<li>Exceed Expectations</li>
+				<li>Compassion</li>
+				<li>Excellence</li>
+			</ul></div>
+      </div>
+	</section>
 		<section>
 			<h2>Why Are We Unique?</h2>
 			<h3>Experience</h3>
@@ -36,32 +57,26 @@
 			<p>We focus on the accurate diagnosis and the permanent resolution of problems. For example, we have empirical results to support the long-term impact of team building interventions from over 1,400 teams in more than 100 organizations.</p>
 			<h3>Emphasis on Accountability</h3>
 			<p>Most leaders understand the need for accountability but lack the tools to hold their people accountable in ways that motivate and inspire them to achieve their potential. We provide our clients with proven mechanisms for increasing accountability, simultaneously, developing rock-solid leadership skills.</p>
-			<h3>Core Values</h3>
-			<p>ORDA maintains the highest level of professionalism and confidentiality. Our core values include:</p>
-			<ul>
-				<li>Integrity</li>
-				<li>Creativity</li>
-				<li>Compassion</li>
-				<li>Excellence</li>
-				<li>Exceeding Expectations</li>
-			</ul>
 		</section>
 		<section>
-			<h2>Consultation Process</h2>
-			<p>We use the action research model, a problem-solving model that is data-based and designed to replicate the scientific method of inquiry. Simply stated, the specific steps or interventions in the action research model include:</p>
-			<ul>
+		<div class="holdertwo">&nbsp;
+        <div class="hdtime"><p>Our Consultation process uses a problem-solving model that is data-based and designed to replicate the scientific method of inquiry. Simply stated, the specific steps or interventions in the action research model include:</p>
+		<ul>
 				<li>Collecting data from individuals and groups within the organization.</li>
 				<li>Reporting the data to organizational personnel.</li>
 				<li>Diagnosing the problems.</li>
 				<li>Action planning.</li>
 				<li>Reporting the diagnosis and action plan to the client system.</li>
 				<li>Implementing activities designed to facilitate change and resolve problems within the system.</li>
-			</ul>
-			<p>Once these interventions have been completed, additional data are collected and fed back to the client, further problems are diagnosed, and additional interventions are planned. Action research is based on valid information and designed to provide immediate feedback to the client on the status of problems within the system. It is important to understand that each phase of action research constitutes a set of definite interventions in the organization.</p>
-			<h3>Case Study: Trucking Industry</h3>
-			<p>This model has proven effective, when applied to the driver shortage problems within the trucking industry. Data were collected from fleets of truck drivers over a several-day period through the use of mobile phone surveys. The survey itself required less than 5 minutes to complete, and the use of the mobile phone survey gave drivers flexibility in providing feedback to their leaders. Participation rates were consistently high, and the drivers were very willing to share their insights and attitudes. This highly targeted data collection process allows us to predict truck driver turnover with over 90% accuracy.</p>
-			<p>Our system also provides advanced insights and tools to help determine the reasons these drivers intend to leave their jobs. Successful action planning and implementation can significantly reduce turnover and allow fleets to keep the drivers they already have. The cost of replacing and training a new truck driver is estimated at between $8,000 and $15,000, depending on the type of fleet. Given these levels of replacement costs, it is easy to see how valuable it would be to have in place the resources to help retain current drivers.</p>
-			<p>For details about the ongoing results of this consulting model being applied within the trucking industry, please <a href="mailto:sales@orda-us.com">contact us</a></p>
+			</ul></div>
+        <div class="doody"><img src="../assets/23-Action Research Model.jpg" alt="Research Model"></div>
+        <div class="howdy">Action Research Model</div>
+      </div>
+	<div class="holderone">&nbsp;
+        <div class="howdy">Valid Information & Immediate Feedback</div>
+        <div class="doody"><img src="../assets/24-Valid information.jpg" alt="Valid Information"></div>
+        <div class="hdtime">Once these interventions have been completed, additional data are collected and fed back to the client, further problems are diagnosed, and additional interventions are planned. Action research is based on valid information and designed to provide immediate feedback to the client on the status of problems within the system. It is important to understand that each phase of action research constitutes a set of definite interventions in the organization.</div>
+      </div>
 		</section>
 	</section>
 </template>
