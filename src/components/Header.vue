@@ -1,6 +1,6 @@
 <template>
 	<header class="header">
-		<router-link to="/"><h1>ORDA</h1></router-link>
+		<router-link to="/"><h1 class="sr-only">ORDA Home</h1><ORDALogo /></router-link>
 		<nav>
 			<router-link to="/services">Our Services</router-link>
 			<router-link to="/igps">iGPS</router-link>
@@ -10,6 +10,16 @@
 		</nav>
 	</header>
 </template>
+
+<script>
+import ORDALogo from '../assets/ORDALogo.svg';
+
+export default {
+	components: {
+		ORDALogo
+	}
+};
+</script>
 
 <style lang="scss">
 .header {

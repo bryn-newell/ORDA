@@ -22,26 +22,7 @@ export default {
 </script>
 
 <style lang="scss">
-	*, *:before, *:after {
-		box-sizing: border-box
-	}
-
-	body {
-		margin: 0;
-		color: $black;
-	}
-
-	h1, h2, h3, h4 {
-		font-weight: normal;
-	}
-
-	a {
-			color: $black;
-			text-decoration: none;
-			&:hover {
-				text-decoration: underline;
-			}
-		}
+@import './styles/styles.scss';
 
 	#app {
 		font-family: Avenir, Helvetica, Arial, sans-serif;
