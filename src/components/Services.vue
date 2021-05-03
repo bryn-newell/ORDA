@@ -1,12 +1,10 @@
 <template>
 	<section class="services">
-		<section>
 		<div class="holdertwo">
-        <p>Our clients enjoy clear insight into the hidden dynamics that exist in their organizations. They experience an ability to focus their efforts on the areas of their organizations that are preventing them from getting to the next level. The proven benefits include the ability to drastically increase retention of the best and brightest employees, which includes significantly reducing the cost of recruiting and training new employees.</p>
-        <div class="doody"><nextLevel /></div>
-        <div class="howdy">Focus on the next level</div>
-      </div>
-		</section>
+			<p>Our clients enjoy clear insight into the hidden dynamics that exist in their organizations. They experience an ability to focus their efforts on the areas of their organizations that are preventing them from getting to the next level. The proven benefits include the ability to drastically increase retention of the best and brightest employees, which includes significantly reducing the cost of recruiting and training new employees.</p>
+			<div><nextLevel /></div>
+			<h3>Focus on the next level</h3>
+		</div>
 		<section>
 			<h3>Organizational Assessment & Diagnosis</h3>
 			<p>From the total organization to the smallest department, we provide an accurate, confidential assessment of strengths and needs. We assist the organization in developing specific and detailed strategies to address the immediate and future needs of the organization.</p>
@@ -36,11 +34,10 @@
 			<p>Most people in organizations either underestimate the power they have and/or they don't know how to use it. We offer a unique perspective on power and influence that is well received and highly effective.</p>
 			<employeeEngagement />
 		</section>
-	<section>
 		<div class="holderone">
-        <div class="howdy">Core Values</div>
-        <div class="doody"><coreValues /></div>
-        <p>ORDA maintains the highest level of professionalism and confidentiality. Our core values include:</p>
+				<h3>Core Values</h3>
+				<div><coreValues /></div>
+				<p>ORDA maintains the highest level of professionalism and confidentiality. Our core values include:</p>
 			<ul>
 				<li>Integrity</li>
 				<li>Creativity</li>
@@ -49,8 +46,7 @@
 				<li>Compassion</li>
 				<li>Excellence</li>
 			</ul>
-      </div>
-	</section>
+		</div>
 		<section>
 			<h2>Why Are We Unique?</h2>
 			<h3>Experience</h3>
@@ -72,10 +68,9 @@
 			<accountability />
 			<p>Most leaders understand the need for accountability but lack the tools to hold their people accountable in ways that motivate and inspire them to achieve their potential. We provide our clients with proven mechanisms for increasing accountability, simultaneously, developing rock-solid leadership skills.</p>
 		</section>
-		<section>
 		<div class="holdertwo">
-        <p>Our Consultation process uses a problem-solving model that is data-based and designed to replicate the scientific method of inquiry. Simply stated, the specific steps or interventions in the action research model include:</p>
-		<ul>
+			<p>Our Consultation process uses a problem-solving model that is data-based and designed to replicate the scientific method of inquiry. Simply stated, the specific steps or interventions in the action research model include:</p>
+			<ul>
 				<li>Collecting data from individuals and groups within the organization.</li>
 				<li>Reporting the data to organizational personnel.</li>
 				<li>Diagnosing the problems.</li>
@@ -83,15 +78,14 @@
 				<li>Reporting the diagnosis and action plan to the client system.</li>
 				<li>Implementing activities designed to facilitate change and resolve problems within the system.</li>
 			</ul>
-        <div class="doody"><img src="../assets/23-Action Research Model.jpg" alt="Research Model"></div>
-        <div class="howdy">Action Research Model</div>
-      </div>
-	<div class="holderone">
-        <div class="howdy">Valid Information & Immediate Feedback</div>
-        <div class="doody"><img src="../assets/24-Valid information.jpg" alt="Valid Information"></div>
-        <p>Once these interventions have been completed, additional data are collected and fed back to the client, further problems are diagnosed, and additional interventions are planned. Action research is based on valid information and designed to provide immediate feedback to the client on the status of problems within the system. It is important to understand that each phase of action research constitutes a set of definite interventions in the organization.</p>
-      </div>
-		</section>
+			<div><img src="../assets/23-Action Research Model.jpg" alt="Research Model"></div>
+			<h3>Action Research Model</h3>
+		</div>
+		<div class="holderone">
+			<h3>Valid Information & Immediate Feedback</h3>
+			<div><img src="../assets/24-Valid information.jpg" alt="Valid Information"></div>
+			<p>Once these interventions have been completed, additional data are collected and fed back to the client, further problems are diagnosed, and additional interventions are planned. Action research is based on valid information and designed to provide immediate feedback to the client on the status of problems within the system. It is important to understand that each phase of action research constitutes a set of definite interventions in the organization.</p>
+		</div>
 	</section>
 </template>
 

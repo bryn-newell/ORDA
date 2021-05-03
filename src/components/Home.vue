@@ -50,6 +50,7 @@ export default {
 				border-radius: 5px;
 				background-color: $gray-600;
 				color: $white;
+				display: inline-block;
 				font-weight: 600;
 				padding: 8px 10px;
 				&:hover {

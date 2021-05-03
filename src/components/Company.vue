@@ -1,38 +1,39 @@
 <template>
-	<div class="company">
-      <div class="holderone">
-        <div class="howdy">Improve Employee Satisfaction & Overall Accountability</div>
-        <employeeSatisfaction />
-        <div class="hdtime">While on the surface, the overall health of a company may be on target, underlying dissatisfaction in hidden areas can lead to unforeseen drops in profitability due to lack of engagement, burnout and turnover. An example from the Healthcare industry, specifically hospital systems, is the loss of one nurse. This loss can cost a hospital $90,000 to $145,000 per nurse, depending on specialty.</div>
-      </div>
-      <div class="holdertwo">
-        <div class="hdtime"><p>Reduce burnout, increase job involvement, improve trust, and increase customer satisfaction. Clients report significant results:</p>
-		<ul>
+	<section class="company">
+		<div class="holderone">
+			<h2>Improve Employee Satisfaction & Overall Accountability</h2>
+			<div><employeeSatisfaction /></div>
+			<p>While on the surface, the overall health of a company may be on target, underlying dissatisfaction in hidden areas can lead to unforeseen drops in profitability due to lack of engagement, burnout and turnover. An example from the Healthcare industry, specifically hospital systems, is the loss of one nurse. This loss can cost a hospital $90,000 to $145,000 per nurse, depending on specialty.</p>
+		</div>
+		<div class="holdertwo">
+			<h3>Reduce burnout, increase job involvement, improve trust, and increase customer satisfaction. Clients report significant results:</h3>
+			<ul>
 				<li>Decreased voluntary turnover from 24.1% to 3.8%</li>
 				<li>Increased customer satisfaction 209%</li>
 				<li>Reduced temporary labor costs $5.3 million</li>
 				<li>Increased employee giving 187%</li>
 				<li>Increased total margin 231%</li>
-			</ul></div>
-        <manageCorpCulture />
-        <div class="howdy">Proactively manage corporate culture</div>
-      </div>
-	<div class="holderthree">
-        <div class="howdy">Quickly identify issues and how to solve them</div>
-        <identifyIssues />
-        <div class="hdtime">We provide cutting edge organizational assessments and support systems to enable executive committees and front line managers all the resources necessary to improve the organizational culture and profitability. We use assessment instruments and face to face interviews to diagnose an organization’s strengths and areas of opportunity. We then facilitate action planning and do periodic progress checks to ensure your organization is realizing maximum improvement and overall health. This process of “culture measurement and management” provides results as detailed as any financial report.</div>
-      </div>
-	<div class="holderone">
-        <div class="howdy">Provide leaders with real time information</div>
-        <realtimeInfo />
-        <div class="hdtime">Our purpose is focused solely on providing leaders with real time information and top-of-class consulting services that allow them to:<ul>
+			</ul>
+			<div><manageCorpCulture /></div>
+			<h2>Proactively manage corporate culture</h2>
+		</div>
+		<div class="holderthree">
+			<h2>Quickly identify issues and how to solve them</h2>
+			<div><identifyIssues /></div>
+			<p>We provide cutting edge organizational assessments and support systems to enable executive committees and front line managers all the resources necessary to improve the organizational culture and profitability. We use assessment instruments and face to face interviews to diagnose an organization’s strengths and areas of opportunity. We then facilitate action planning and do periodic progress checks to ensure your organization is realizing maximum improvement and overall health. This process of “culture measurement and management” provides results as detailed as any financial report.</p>
+		</div>
+		<div class="holderone">
+			<h2>Provide leaders with real time information</h2>
+			<div><realtimeInfo /></div>
+			<h3>Our purpose is focused solely on providing leaders with real time information and top-of-class consulting services that allow them to:</h3>
+			<ul>
 				<li>Focus their leadership efforts in areas that will provide the highest benefit to their organization and their customers.</li>
 				<li>Harvest the seeds of innovation and creative collaboration that already exist in their organization.</li>
 				<li>Access higher levels of employee motivation than ever experienced before.</li>
-			</ul></div>
-      </div>
-	<div class="holdertwo">
-        <div class="hdtime"><p><p>Further, through our services, we provide our customers with:</p>
+			</ul>
+		</div>
+		<div class="holdertwo">
+			<h3>Further, through our services, we provide our customers with:</h3>
 			<ul>
 				<li>Immediate access to assessment data.</li>
 				<li>Reliable and predictive ability in the scales measured to identify “hotspots”.</li>
@@ -45,13 +46,11 @@
 				<li>Increased customer satisfaction.</li>
 				<li>Increased net revenue per FTE.</li>
 				<li>Increased total margin profitability.</li>
-			</ul></div>
-				<wideRangeBenefits />
-        <div class="howdy">Wide range of benefits</div>
-      </div>
-		<section>
-    </section>
-	</div>
+			</ul>
+			<div><wideRangeBenefits /></div>
+			<h2>Wide range of benefits</h2>
+		</div>
+	</section>
 </template>
 
 <script>
@@ -82,51 +81,51 @@ export default {
 			margin-left: auto;
 		}
 	}
-  .holderone {
-  background-color: #5C6495;
-  width: 100%;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
+	.holderone {
+	background-color: #5C6495;
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
 }
 .holdertwo {
-  background-color: #fff;
-  width: 100%;
-  color: #5C6495;
-  text-align: center;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
+	background-color: #fff;
+	width: 100%;
+	color: #5C6495;
+	text-align: center;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
 }
 .holderthree {
-  background-color: #B3BCF2;
-  width: 100%;
-  color: #5C6495;
-  text-align: center;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
+	background-color: #B3BCF2;
+	width: 100%;
+	color: #5C6495;
+	text-align: center;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
 }
 .howdy {
-  width: 30%;
-  margin: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 240%;
-  font-family: Tahoma;
-  margin-left: auto;
-  margin-right: auto;
+	width: 30%;
+	margin: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 240%;
+	font-family: Tahoma;
+	margin-left: auto;
+	margin-right: auto;
 }
 .doody {
-  width: 30%;
-  margin: 15px;
+	width: 30%;
+	margin: 15px;
 }
 .hdtime {
-  width: 30%;
-  margin: 15px;
-  font-family: tahoma;
+	width: 30%;
+	margin: 15px;
+	font-family: tahoma;
 }
 </style>

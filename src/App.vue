@@ -23,7 +23,6 @@ export default {
 
 <style lang="scss">
 @import './styles/styles.scss';
-
 	#app {
 		font-family: Avenir, Helvetica, Arial, sans-serif;
 		-webkit-font-smoothing: antialiased;
@@ -37,6 +36,5 @@ export default {
 	.main {
 		padding: 20px;
 		text-align: left;
-		flex-grow: 1;
 	}
 </style>
