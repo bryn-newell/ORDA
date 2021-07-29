@@ -1,13 +1,65 @@
 <template>
-	<section>
+	<section class="people">
 		<h2>Our People</h2>
-		<h3>Wayne Boss</h3>
-		<p>R. Wayne Boss, President and Chief Executive Officer of Organization Research and Development Associates, is a Professor of Management in the Leeds School of Business at the University of Colorado, Boulder Campus. He received his Bachelor's and Master's degrees from Brigham Young University and his Ph.D. from the University of Georgia. Dr. Boss is the editor of the Organization Development and Change Newsletter for the Academy of Management and serves on the editorial boards of several major professional journals. He is the author of four books and over 100 articles. A selected list of his recent clients includes numerous organizations in both the public and private sectors in the United States, South America, Europe, and the Pacific Rim. He has also served as a consultant for the People's Republic of China. He specializes in organization development and the management of organizational change in healthcare, and he currently teaches a six-course sequence in organization development and consultation skills to masters and doctoral students. He is married, has four children, and lives in Boulder, Colorado.</p>
-		<h3>Jim Foltz</h3>
-		<p>Jim Foltz is Chief Technology Officer for Organization Research and Development Associates. Prior to ORDA, Jim has held technical positions at a variety of high tech companies, including Netscape Communications, America Online, and Sun Microsystems. He received his Bachelor's Degree at Oberlin College, and Master's Degree at Stanford University. Jim and his family live in Boulder, Colorado.</p>
-		<h3>Robert Newell</h3>
-		<p>Robert Newell is the Creative Director for the iGPS suite of online tools. Robert has over 17 years of design experience across a number of industries. Most recently, Robert was designing online applications for several major financial brokerages and hedge funds including Reuters, Charles Schwab, Fidelity, Merril Lynch, Wellington Management, and Goldman Sachs. He received his Bachelor's of Arts Degree from Brigham Young University, and he lives with his family in Boulder, Colorado.</p>
-		<h3>David Boss</h3>
-		<p>David S. Boss, Marketing and Strategy Director of Organization Research and Development Associates, is an Assistant Professor of Strategic Management in the College of Business at Ohio University. He received his Bachelor's degree from Brigham Young University, his MBA from Babson College, and his Ph.D. from Texas A&M University. Dr. Boss has worked in the consulting field for over ten years. He specializes in organizational resource management, and he currently teaches a strategic management capstone course to undergraduate seniors. He is married and has three children.</p>
+		<div class="person-container">
+			<img :src="Wayne" alt="Wayne Boss Headshot">
+			<div>
+				<h3>Wayne Boss</h3>
+				<p>R. Wayne Boss, President and Chief Executive Officer of Organization Research and Development Associates, is a Professor of Management in the Leeds School of Business at the University of Colorado, Boulder Campus. He received his Bachelor's and Master's degrees from Brigham Young University and his Ph.D. from the University of Georgia. Dr. Boss is the editor of the Organization Development and Change Newsletter for the Academy of Management and serves on the editorial boards of several major professional journals. He is the author of four books and over 100 articles. A selected list of his recent clients includes numerous organizations in both the public and private sectors in the United States, South America, Europe, and the Pacific Rim. He has also served as a consultant for the People's Republic of China. He specializes in organization development and the management of organizational change in healthcare, and he currently teaches a six-course sequence in organization development and consultation skills to masters and doctoral students. He is married, has four children, and lives in Boulder, Colorado.</p>
+			</div>
+		</div>
+		<div class="person-container">
+			<img :src="Jim" alt="Jim Foltz Headshot">
+			<div>
+				<h3>Jim Foltz</h3>
+				<p>Jim Foltz is Chief Technology Officer for Organization Research and Development Associates. Prior to ORDA, Jim has held technical positions at a variety of high tech companies, including Netscape Communications, America Online, and Sun Microsystems. He received his Bachelor's Degree at Oberlin College, and Master's Degree at Stanford University. Jim and his family live in Boulder, Colorado.</p>
+			</div>
+		</div>
+		<div class="person-container">
+			<img :src="Bob" alt="Robert Newell Headshot">
+			<div>
+				<h3>Robert Newell</h3>
+				<p>Robert Newell is the Creative Director for the iGPS suite of online tools. Robert has over 17 years of design experience across a number of industries. Most recently, Robert was designing online applications for several major financial brokerages and hedge funds including Reuters, Charles Schwab, Fidelity, Merril Lynch, Wellington Management, and Goldman Sachs. He received his Bachelor's of Arts Degree from Brigham Young University, and he lives with his family in Boulder, Colorado.</p>
+			</div>
+		</div>
+		<div class="person-container">
+			<img :src="David" alt="David Boss Headshot">
+			<div>
+				<h3>David Boss</h3>
+				<p>David S. Boss, Marketing and Strategy Director of Organization Research and Development Associates, is an Assistant Professor of Strategic Management in the College of Business at Ohio University. He received his Bachelor's degree from Brigham Young University, his MBA from Babson College, and his Ph.D. from Texas A&M University. Dr. Boss has worked in the consulting field for over ten years. He specializes in organizational resource management, and he currently teaches a strategic management capstone course to undergraduate seniors. He is married and has three children.</p>
+			</div>
+		</div>
 	</section>
 </template>
+
+<script>
+import Bob from '@/assets/Bob_Newell.jpg';
+import David from '@/assets/David_Boss.jpg';
+import Jim from '@/assets/Jim_Foltz.jpg';
+import Wayne from '@/assets/Wayne_Boss.jpg';
+
+export default {
+	data() {
+		return {
+			Bob,
+			David,
+			Jim,
+			Wayne
+		};
+	}
+};
+</script>
+
+<style lang="scss">
+.people {
+	.person-container {
+		display: flex;
+		margin: 24px 0;
+		img {
+			border-radius: 10px;
+			max-width: 200px;
+			margin-right: 24px;;
+		}
+	}
+}
+</style>
