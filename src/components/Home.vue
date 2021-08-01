@@ -1,8 +1,8 @@
 <template>
 	<section>
-		<section class="home" :style="`backgroundImage: url(${heroImg})`">
+		<section class="home">
 			<div class="headline">
-				<img :src="iGPS" alt="iGPS">
+				<iGPSLogo class="igps-logo" />
 				<p>A cutting edge organizational assessment tool at your fingertips.</p>
 			</div>
 			<div class="cta">
@@ -16,18 +16,16 @@
 </template>
 
 <script>
-import heroImg from '../assets/hero.png';
-import iGPS from '../assets/iGPS.png';
+import iGPSLogo from '../assets/iGPSLogo.svg';
 import Company from './Company.vue';
 
 export default {
 	components: {
-		Company
+		Company,
+		iGPSLogo
 	},
 	data() {
 		return {
-			heroImg,
-			iGPS
 		};
 	}
 };
@@ -42,6 +40,9 @@ export default {
 		height: 50vh;
 		justify-content: space-between;
 		.headline {
+			.igps-logo {
+				width: 200px;
+			}
 			p {
 				margin: 0 0 0 10px;
 			}
@@ -52,6 +53,7 @@ export default {
 				border-radius: 5px;
 				background-color: $gray-600;
 				color: $white;
+				display: inline-block;
 				font-weight: 600;
 				padding: 8px 10px;
 				&:hover {
