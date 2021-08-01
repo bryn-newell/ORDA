@@ -2,7 +2,7 @@
 	<section>
 		<section class="home">
 			<div class="headline">
-				<iGPSLogo />
+				<iGPSLogo class="igps-logo" />
 				<p>A cutting edge organizational assessment tool at your fingertips.</p>
 			</div>
 			<div class="cta">
@@ -40,6 +40,9 @@ export default {
 		height: 50vh;
 		justify-content: space-between;
 		.headline {
+			.igps-logo {
+				width: 200px;
+			}
 			p {
 				margin: 0 0 0 10px;
 			}
