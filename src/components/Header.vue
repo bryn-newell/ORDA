@@ -1,6 +1,6 @@
 <template>
 	<header class="header">
-		<router-link to="/"><h1 class="sr-only">ORDA Home</h1><ORDALogo /></router-link>
+		<router-link to="/"><h1 class="sr-only">ORDA Home</h1><ORDALogo class="orda-logo" /></router-link>
 		<nav>
 			<router-link to="/services">Our Services</router-link>
 			<router-link to="/igps">iGPS</router-link>
@@ -34,6 +34,9 @@ export default {
 	h1 {
 		margin: 0 20px 0 0;
 		padding: 0;
+	}
+	.orda-logo {
+		width: 200px;
 	}
 	nav {
 		display: flex;

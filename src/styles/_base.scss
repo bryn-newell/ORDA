@@ -9,6 +9,10 @@ body {
 }
 
 h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+h5, h6 {
   font-weight: normal;
 }
 
@@ -20,6 +24,10 @@ a {
   }
 }
 
+ul {
+  list-style-position: inside;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -29,4 +37,8 @@ a {
   overflow: hidden;
   clip: rect(0,0,0,0);
   border: 0;
+}
+
+.flex {
+  display: flex;
 }
