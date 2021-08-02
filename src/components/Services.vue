@@ -67,39 +67,41 @@
 				</ul>
 			</div>
 		</section>
-		<h2>Why Are We Unique?</h2>
-		<section class="service-container">
-			<section class="service-card">
-				<experience />
-				<h3>Experience</h3>
-				<p>Collectively our consultants have over 155 years of proven experience working with a variety of industries.</p>
+		<div class="bg-green">
+			<h2 class="sub-heading">Why Are We Unique?</h2>
+			<section class="service-container">
+				<section class="service-card">
+					<experience />
+					<h3>Experience</h3>
+					<p>Collectively our consultants have over 155 years of proven experience working with a variety of industries.</p>
+				</section>
+				<section class="service-card">
+					<dataGathering />
+					<h3>Data Gathering Expertise</h3>
+					<p>We work with clients to measure the variables they want to measure and collect data electronically through iGPS™. A distinguishing difference between iGPS™ and other surveys is the immediate availability of the results. Rather than requiring clients to wait four weeks to four months to get results, our clients have detailed, actionable information available within 12 seconds after closure of the assessment. iGPS™ further provides intuitive reports (including responses to open-ended questions). Clients are able to manipulate – “slice & dice” – the data on their desktop with no additional charges or waiting for adhoc reports to be developed and forwarded.</p>
+				</section>
+				<section class="service-card">
+					<bottomLine />
+					<h3>Bottom-line Results</h3>
+					<p>We focus on cultural, attitudinal, financial, and customer satisfaction results and have a proven track record of success in each of these areas. Examples include helping clients increase profits through decreasing unwanted employee turnover, increasing job involvement, increasing collaboration among all levels of employees, and become “Best of Class” organizations.</p>
+				</section>
+				<section class="service-card">
+					<clientEmpowerment />
+					<h3>Client Empowerment</h3>
+					<p>Whereas most data collection companies limit their services to the collection and analysis of data, we help clients resolve the problems that surface in the diagnosis and gain the skills to become independent of outside assistance.</p>
+				</section>
+				<section class="service-card">
+					<longTerm />
+					<h3>Long-term Results</h3>
+					<p>We focus on the accurate diagnosis and the permanent resolution of problems. For example, we have empirical results to support the long-term impact of team building interventions from over 1,400 teams in more than 100 organizations.</p>
+				</section>
+				<section class="service-card">
+					<accountability />
+					<h3>Emphasis on Accountability</h3>
+					<p>Most leaders understand the need for accountability but lack the tools to hold their people accountable in ways that motivate and inspire them to achieve their potential. We provide our clients with proven mechanisms for increasing accountability, simultaneously, developing rock-solid leadership skills.</p>
+				</section>
 			</section>
-			<section class="service-card">
-				<dataGathering />
-				<h3>Data Gathering Expertise</h3>
-				<p>We work with clients to measure the variables they want to measure and collect data electronically through iGPS™. A distinguishing difference between iGPS™ and other surveys is the immediate availability of the results. Rather than requiring clients to wait four weeks to four months to get results, our clients have detailed, actionable information available within 12 seconds after closure of the assessment. iGPS™ further provides intuitive reports (including responses to open-ended questions). Clients are able to manipulate – “slice & dice” – the data on their desktop with no additional charges or waiting for adhoc reports to be developed and forwarded.</p>
-			</section>
-			<section class="service-card">
-				<bottomLine />
-				<h3>Bottom-line Results</h3>
-				<p>We focus on cultural, attitudinal, financial, and customer satisfaction results and have a proven track record of success in each of these areas. Examples include helping clients increase profits through decreasing unwanted employee turnover, increasing job involvement, increasing collaboration among all levels of employees, and become “Best of Class” organizations.</p>
-			</section>
-			<section class="service-card">
-				<clientEmpowerment />
-				<h3>Client Empowerment</h3>
-				<p>Whereas most data collection companies limit their services to the collection and analysis of data, we help clients resolve the problems that surface in the diagnosis and gain the skills to become independent of outside assistance.</p>
-			</section>
-			<section class="service-card">
-				<longTerm />
-				<h3>Long-term Results</h3>
-				<p>We focus on the accurate diagnosis and the permanent resolution of problems. For example, we have empirical results to support the long-term impact of team building interventions from over 1,400 teams in more than 100 organizations.</p>
-			</section>
-			<section class="service-card">
-				<accountability />
-				<h3>Emphasis on Accountability</h3>
-				<p>Most leaders understand the need for accountability but lack the tools to hold their people accountable in ways that motivate and inspire them to achieve their potential. We provide our clients with proven mechanisms for increasing accountability, simultaneously, developing rock-solid leadership skills.</p>
-			</section>
-		</section>
+		</div>
 		<section class="model research">
 			<img :src="actionModel" alt="Research Model">
 			<div class="content">
@@ -188,8 +190,12 @@ export default {
 		background-color: $green-200;
 		display: flex;
 		flex-wrap: wrap;
-		margin: 48px 0;
+		padding: 48px 0;
+		padding-left: 24px;
 		margin-right: -40px;
+	}
+	.bg-green {
+		background-color: $green-200;
 	}
 	.service-card {
 		align-items: center;
@@ -202,23 +208,34 @@ export default {
 			margin: 16px 0;
 		}
 		svg {
+			height: auto;
+			max-height: 120px;
 			width: 80px;
 		}
 	}
 	.core-values {
 		display: flex;
-		margin-bottom: 42px;
+		margin: 42px 0;
+		padding-left: 24px;
 		svg {
+			height: auto;
+			max-height: 120px;
 			width: 100px;
 		}
 		.content {
 			margin-left: 48px;
 		}
 	}
+	.sub-heading {
+		padding-top: 24px;
+		padding-left: 24px;
+	}
 	.model {
 		align-items: center;
 		display: flex;
 		justify-content: space-between;
+		padding: 48px 0;
+		padding-left: 24px;
 		img {
 			width: 250px;
 		}
