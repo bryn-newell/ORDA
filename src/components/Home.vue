@@ -37,17 +37,14 @@ export default {
 		background-position: 0%;
 		display: flex;
 		flex-direction: column;
-		height: 50vh;
-		justify-content: space-between;
+		padding: 48px 24px;
 		.headline {
 			.igps-logo {
 				width: 200px;
 			}
-			p {
-				margin: 0 0 0 10px;
-			}
 		}
 		.cta {
+			margin: 32px 0;
 			text-align: center;
 			a {
 				border-radius: 5px;
