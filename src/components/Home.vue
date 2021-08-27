@@ -1,6 +1,6 @@
 <template>
 	<section>
-		<section class="home">
+		<section class="home" :style="{ backgroundImage: `url(${hero})` }">
 			<div class="headline">
 				<iGPSLogo class="igps-logo" />
 				<p>A cutting edge organizational assessment tool at your fingertips.</p>
@@ -17,6 +17,7 @@
 
 <script>
 import iGPSLogo from '../assets/iGPSLogo.svg';
+import hero from '../assets/hero.png';
 import Company from './Company.vue';
 
 export default {
@@ -26,6 +27,7 @@ export default {
 	},
 	data() {
 		return {
+			hero
 		};
 	}
 };
@@ -34,7 +36,7 @@ export default {
 <style lang="scss">
 	.home {
 		background-size: cover;
-		background-position: 0%;
+		background-position: center;
 		display: flex;
 		flex-direction: column;
 		padding: 48px 24px;

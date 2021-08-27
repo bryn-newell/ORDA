@@ -4,15 +4,14 @@
 		<nav>
 			<router-link to="/services">Our Services</router-link>
 			<router-link to="/igps">iGPS</router-link>
-			<router-link to="/clients">Our Clients</router-link>
-			<router-link to="/publications">Publications</router-link>
+			<router-link to="/clients">Clients & Publications</router-link>
 			<router-link to="/people">Our People</router-link>
 		</nav>
 	</header>
 </template>
 
 <script>
-import ORDALogo from '../assets/ORDALogo.svg';
+import ORDALogo from '../assets/ORDALogoWhite.svg';
 
 export default {
 	components: {

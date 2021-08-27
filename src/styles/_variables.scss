@@ -1,3 +1,4 @@
+// Colors
 $black: #333;
 $gray-800: #25292d;
 $gray-700: #2e3338;
@@ -12,14 +13,25 @@ $white: #FFF;
 $blue-800: #293F51;
 $blue-600: #416788;
 $blue-400: #6891B6;
+$blue-300: #8793D8;
+$blue-200: #B3BCF2;
 $blue: #5C6495;
 $mauve: #6C464F;
 $mauve-200: #CEA0AE;
-
-$blue-200: #8793D8;
 
 $pale-green: #84A59D;
 $green: #72913C;
 $green-200: #D2E1B7;
 $green-400: #B7CF8C;
-$green-600: #9DBD61
+$green-600: #9DBD61;
+
+// Font sizes - based of 16px = 1rem
+$font-size-12: .75rem;
+$font-size-14: .875rem;
+$font-size-16: 1rem;
+$font-size-18: 1.125rem;
+$font-size-24: 1.5rem;
+$font-size-30: 1.875rem;
+$font-size-36: 2.25rem;
+$font-size-42: 2.65rem;
+$font-size-50: 3.125rem;

@@ -18,10 +18,23 @@
 		<p>"With stratifications by demographic groups and puestion groupings, we can identify that a specific demographic group of employees on the second shift are in high stages of burnout and corporate disengagement. We get them together, solved their problem and move on. Our turnover rates are 10 percentage points below the facilities around us. And as mentioned, contract labor costs were reduced by $5 million/year instantly."</p>
 		<p>"An advantage iGPS™ has over its competitors is its ability, at a managerial level, to immediately see areas of necessary focus. You do not have to scroll through various parts of a CD and sift through the data to see what areas need focus to affect positive change. You are able to get results immediately upon closure of the assessment."</p>
 		<p>"Hearing you describe iGPS™ doesn’t give us an appreciation for the power of the system. Seeing it really drives it home. You see the power of the tool. When you hear someone say, “We have this automated, powerful survey tool”, it’s easy to have your eyes glaze over because it sounds like rhetoric – something we’ve heard before. Seeing iGPS™ really shows the power and the difference of what you have compared to your competition."</p>
+
+	<section>
+		<h2>Publications</h2>
+		<h3>Books</h3>
+		<ul>
+			<li>Boss, R. W. (1988). Organization development in health care settings. New York: Human Sciences Press.</li>
+			<li>Boss, R. W. (1989). Organization development in health care. Reading, Mass.: Addison-Wesley.</li>
+		</ul>
+		<h3>Published Research</h3>
+		<p><a :href="publications" target="_blank" download>Download the PDF for the full list of publications</a></p>
+	</section>
 	</section>
 </template>
 
 <script>
+import publications from '../assets/publication-list.pdf';
+
 export default {
 	data() {
 		return {
@@ -70,7 +83,8 @@ export default {
 					industry: 'Healthcare',
 					companies: ['Ascension Health', 'American College of Emergency Physicians', 'Aurora Presbyterian Hosptial', 'Catholic Health Initiatives', 'Culpepper Regional Hospital', 'Denver Cardiologists', 'Denver Presbyterian/St. Lukes Hosptial', 'Erlanger Health System', 'Kaiser Permanente', 'Lee Memorial Health System', 'LSU Medical Center', 'Memorial Health System', 'Memrorial Hospital, Colorado Springs, CO', 'Republic Health Corporation', 'Routte Memorial Hospital', 'Saint Elizabeth\'s Hospital', 'Saint Francis Hospital', 'Sisters of Charity of Nazareth Heatlh Corporation', 'Sisters of Providence, Seattle, WA', 'Spartanburg Regional Healthcare System', 'Via Christi Regional Medical Center']
 				},
-			]
+			],
+			publications
 		};
 	}
 };

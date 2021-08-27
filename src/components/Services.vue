@@ -130,7 +130,7 @@
 
 <script>
 import nextLevel from '@/assets/6-NextLevel.svg';
-import assessAndDiagnosis from '@/assets/7-AssessAndDiagnosis.svg';
+import assessAndDiagnosis from '@/assets/7-AssesAndDiagnosis.svg';
 import teamBuilding from '@/assets/8-TeamBuilding.svg';
 import conflictRes from '@/assets/9-ConflictResolution.svg';
 import leadershipDev from '@/assets/10-LeadershipDevelopment.svg';
