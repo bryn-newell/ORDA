@@ -96,15 +96,9 @@ export default {
 				color: $blue;
 			}
 			svg {
-				width: 170px;
+				flex-shrink: 0;
 				margin: 0 24px;
-				&.corp-svg {
-					width: 285px;
-				}
-				&.realtime-svg,
-				&.widerange-svg {
-					width: 265px;
-				}
+				width: 170px;
 			}
 			.title {
 				font-size: $font-size-36;

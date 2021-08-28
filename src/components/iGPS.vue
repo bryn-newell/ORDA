@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<section class="igps-page">
 		<section>
 			<h2>iGPS™</h2>
 			<p>Identify organizational challenges that get in the way of outstanding business results by leveraging the iGPS™ assessment and culture management tool. Use the information to facilitate an action planning process, make long term sustainable changes, and ultimately increase corporate profitability and other key organizational metrics.</p>
@@ -13,7 +13,7 @@
 			</ul>
 			<p><a href="mailto:sales@orda-us.com">Contact us</a> to see how the iGPS™ culture assessment can increase your productivity and profits.</p>
 		</section>
-		<section>
+		<section class="bg-green">
 			<h2>iGPS™ Comparisions</h2>
 			<p>iGPS™ comparison to traditional employee opinion surveys:</p>
 			<table>
@@ -61,7 +61,7 @@
 			</ul>
 			<p><a href="mailto:sales@orda-us.com">Contact us</a> to see how your 360 assessment can be delivered via iGPS™.</p>
 		</section>
-		<section>
+		<section class="bg-green">
 			<h2>Peformance Management Appraisals</h2>
 			<img :src="performance" alt="">
 			<p>Performance management is the activity of determining, tracking, and supporting employee development and progress. Performance management is vital to the long-term success of employee development. Employees that thoroughly understand expectations and accountability are more inclined to be motivated, to take ownership for their performance, and become more effective in all aspects of their job functions. A performance management appraisal process should be one easily accessible so as to track current and yearly employee performance. A simple and effective system will aid in employee development, improvement, and motivation.</p>
@@ -97,3 +97,12 @@ export default {
 	}
 };
 </script>
+
+<style lang="scss">
+.igps-page {
+	section {
+		padding: 32px;
+		min-height: 420px;
+	}
+}
+</style>

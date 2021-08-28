@@ -1,5 +1,7 @@
 <template>
 	<section class="services">
+		<div class="bg-green">
+		<h2 class="sub-heading">Our Services</h2>
 		<section class="service-container">
 			<div class="service-card">
 				<nextLevel />
@@ -52,22 +54,9 @@
 				<p>Most people in organizations either underestimate the power they have and/or they don't know how to use it. We offer a unique perspective on power and influence that is well received and highly effective.</p>
 			</div>
 		</section>
-		<section class="core-values">
-			<coreValues />
-			<div class="content">
-				<h3>Core Values</h3>
-				<p>ORDA maintains the highest level of professionalism and confidentiality. Our core values include:</p>
-				<ul>
-					<li>Integrity</li>
-					<li>Creativity</li>
-					<li>Family and Work-Life Balance</li>
-					<li>Exceed Expectations</li>
-					<li>Compassion</li>
-					<li>Excellence</li>
-				</ul>
-			</div>
-		</section>
-		<div class="bg-green">
+		</div>
+		<div>
+			<div class="bg-dark-green">
 			<h2 class="sub-heading">Why Are We Unique?</h2>
 			<section class="service-container">
 				<section class="service-card">
@@ -101,6 +90,7 @@
 					<p>Most leaders understand the need for accountability but lack the tools to hold their people accountable in ways that motivate and inspire them to achieve their potential. We provide our clients with proven mechanisms for increasing accountability, simultaneously, developing rock-solid leadership skills.</p>
 				</section>
 			</section>
+			</div>
 		</div>
 		<section class="model research">
 			<img :src="actionModel" alt="Research Model">
@@ -117,6 +107,23 @@
 				</ul>
 			</div>
 		</section>
+		<div class="bg-green">
+			<section class="core-values">
+				<coreValues />
+				<div class="content">
+					<h3>Core Values</h3>
+					<p>ORDA maintains the highest level of professionalism and confidentiality. Our core values include:</p>
+					<ul>
+						<li>Integrity</li>
+						<li>Creativity</li>
+						<li>Family and Work-Life Balance</li>
+						<li>Exceed Expectations</li>
+						<li>Compassion</li>
+						<li>Excellence</li>
+					</ul>
+				</div>
+			</section>
+		</div>
 		<section class="model feedback">
 			<div class="content">
 				<h3>Valid Information & Immediate Feedback</h3>
@@ -181,31 +188,34 @@ export default {
 <style lang="scss">
 .services {
 	h2 {
-		font-size: 32px;
+		font-size: $font-size-32;
 	}
 	h3 {
-		font-size: 24px;
+		font-size: $font-size-24;
 	}
 	.service-container {
-		background-color: $green-200;
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: space-evenly;
 		padding: 48px 0;
 		padding-left: 24px;
 		margin-right: -40px;
-	}
-	.bg-green {
-		background-color: $green-200;
+		margin: 0 auto;
+		max-width: 1200px;
 	}
 	.service-card {
 		align-items: center;
+		border: 2px solid $blue-800;
+		border-radius: 8px;
 		display: flex;
 		flex-direction: column;
-		max-width: 280px;
+		padding: 12px;
+		max-width: 320px;
 		margin-right: 40px;
+		margin-bottom: 40px;
 		text-align: center;
 		h3 {
-			margin: 16px 0;
+			margin-bottom: 16px;
 		}
 		svg {
 			height: auto;
@@ -214,13 +224,15 @@ export default {
 		}
 	}
 	.core-values {
+		align-items: center;
 		display: flex;
-		margin: 42px 0;
-		padding-left: 24px;
+		min-height: 450px;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding-left: 42px;
 		svg {
 			height: auto;
-			max-height: 120px;
-			width: 100px;
+			width: 140px;
 		}
 		.content {
 			margin-left: 48px;
@@ -234,6 +246,9 @@ export default {
 		align-items: center;
 		display: flex;
 		justify-content: space-between;
+		min-height: 450px;
+		margin: 0 auto;
+		max-width: 1200px;
 		padding: 48px 0;
 		padding-left: 24px;
 		img {
@@ -243,7 +258,6 @@ export default {
 			max-width: 600px;
 		}
 		&.feedback {
-			background-color: $green-200;
 			img {
 				width: 320px;
 			}
