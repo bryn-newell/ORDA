@@ -22,7 +22,7 @@
 		<div class="company-container bg-light-blue">
 			<h2>Quickly identify issues and how to solve them</h2>
 			<identifyIssues role="presentation" />
-			<p>We provide cutting edge organizational assessments and support systems to enable executive committees and front line managers all the resources necessary to improve the organizational culture and profitability. We use assessment instruments and face to face interviews to diagnose an organization’s strengths and areas of opportunity. We then facilitate action planning and do periodic progress checks to ensure your organization is realizing maximum improvement and overall health. This process of “culture measurement and management” provides results as detailed as any financial report.</p>
+			<p class="text-darken">We provide cutting edge organizational assessments and support systems to enable executive committees and front line managers all the resources necessary to improve the organizational culture and profitability. We use assessment instruments and face to face interviews to diagnose an organization’s strengths and areas of opportunity. We then facilitate action planning and do periodic progress checks to ensure your organization is realizing maximum improvement and overall health. This process of “culture measurement and management” provides results as detailed as any financial report.</p>
 		</div>
 		<div class="company-container bg-dark-blue">
 			<h2 class="title">Provide leaders with real time information</h2>
@@ -110,6 +110,9 @@ export default {
 			ul {
 				list-style-type: '-';
 				list-style-position: outside;
+			}
+			.text-darken {
+				color: $blue-800;
 			}
 		}
 	}
