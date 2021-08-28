@@ -2,7 +2,7 @@
 	<section class="company">
 		<div class="company-container bg-dark-blue">
 			<h2 class="title">Improve Employee Satisfaction & <br/>Overall Accountability</h2>
-			<employeeSatisfaction />
+			<employeeSatisfaction role="presentation" />
 			<p>While on the surface, the overall health of a company may be on target, underlying dissatisfaction in hidden areas can lead to unforeseen drops in profitability due to lack of engagement, burnout and turnover. An example from the Healthcare industry, specifically hospital systems, is the loss of one nurse. This loss can cost a hospital $90,000 to $145,000 per nurse, depending on specialty.</p>
 		</div>
 		<div class="company-container">
@@ -16,17 +16,17 @@
 					<li>Increased total margin 231%</li>
 				</ul>
 			</div>
-			<manageCorpCulture class="corp-svg" />
+			<manageCorpCulture class="corp-svg" role="presentation" />
 			<h2 class="title">Proactively manage corporate culture</h2>
 		</div>
 		<div class="company-container bg-light-blue">
 			<h2>Quickly identify issues and how to solve them</h2>
-			<identifyIssues />
+			<identifyIssues role="presentation" />
 			<p>We provide cutting edge organizational assessments and support systems to enable executive committees and front line managers all the resources necessary to improve the organizational culture and profitability. We use assessment instruments and face to face interviews to diagnose an organization’s strengths and areas of opportunity. We then facilitate action planning and do periodic progress checks to ensure your organization is realizing maximum improvement and overall health. This process of “culture measurement and management” provides results as detailed as any financial report.</p>
 		</div>
 		<div class="company-container bg-dark-blue">
 			<h2 class="title">Provide leaders with real time information</h2>
-			<realtimeInfo class="realtime-svg" />
+			<realtimeInfo class="realtime-svg" role="presentation" />
 			<div class="text-left">
 				<h3>Our purpose is focused solely on providing leaders with real time information and top-of-class consulting services that allow them to:</h3>
 				<ul>
@@ -53,7 +53,7 @@
 					<li>Increased total margin profitability.</li>
 				</ul>
 			</div>
-			<wideRangeBenefits class="widerange-svg" />
+			<wideRangeBenefits class="widerange-svg" role="presentation" />
 			<h2 class="title">Wide range of benefits</h2>
 		</div>
 	</section>

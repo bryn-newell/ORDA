@@ -72,3 +72,11 @@ ul {
 .bg-dark-green {
   background: $pale-green;
 }
+.decorative-div {
+  background: linear-gradient(to left, $blue, $green,);
+  bottom: 0;
+  height: 12px;
+  left: 0;
+  position: absolute;
+  width: 100vw;
+}
