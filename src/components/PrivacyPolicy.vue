@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<section class="privacy-page">
 		<h2>Privacy Policy</h2>
 		<p>This is the web site of Organization Research and Development Associates.</p>
 		<p>Our e-mail address is: <a href="mailto:webmaster@orda-us.com">webmaster@orda-us.com</a></p>
@@ -12,3 +12,9 @@
 		<p>If you feel that Organization Research and Development Associates has in any way not followed this privacy policy and you wish to issue a complaint, please <a href="mailto:webmaster@orda-us.com">contact us</a></p>
 	</section>
 </template>
+
+<style lang="scss">
+	.privacy-page {
+		padding: 32px;
+	}
+</style>

@@ -42,3 +42,41 @@ ul {
 .flex {
   display: flex;
 }
+
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+.mr-auto {
+  margin-right: auto;
+}
+.mt-auto {
+  margin-top: auto;
+}
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.bg-green {
+  background-color: $green-200;
+}
+.bg-dark-green {
+  background: $pale-green;
+}
+.decorative-div {
+  background: linear-gradient(to left, $blue, $green,);
+  bottom: 0;
+  height: 12px;
+  left: 0;
+  position: absolute;
+  width: 100vw;
+}

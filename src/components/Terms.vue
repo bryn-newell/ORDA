@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<section class="terms-page">
 		<h2>Terms of Use</h2>
 		<p>Notice to users:</p>
 		<p>Your access and use of this website means you are agreeing to and subject to the following terms and conditions and all applicable laws and regulations in the United States, all of which are subject to change at any time without prior notice. By accessing and using this website, you accept the following terms and conditions, without limitation or qualification: The trademarks appearing on this website, whether they are registered or unregistered, are the property of Organization Research and Development Associates. These trademarks may not be used without the written permission of Organization Research and Development Associates or the identified owner(s) of these trademarks. Unless otherwise pointed out or recognized, the copyright in the content of this website is owned by Organization Research and Development Associates.</p>
@@ -9,3 +9,9 @@
 		<p>If you, the user, have any questions or comments regarding Organization Research and Development Associates, our consulting services, it’s website, or would like to obtain permission to use any of the information or content in Organization Research and Development Associates website, please contact Organization Research and Development Associates at www.orda-us.com.</p>
 	</section>
 </template>
+
+<style lang="scss">
+	.terms-page {
+		padding: 32px;
+	}
+</style>

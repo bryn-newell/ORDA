@@ -4,8 +4,7 @@
 			<h3>ORDA</h3>
 			<ul>
 				<li>Organization Research and Development Associates</li>
-				<li>5530 Racquet Lane Boulder CO 80303</li>
-				<li>Attn: Robert Newell</li>
+				<li>Boulder, CO</li>
 				<li><a href="mailto:sales@orda-us.com">sales@orda-us.com</a></li>
 			</ul>
 		</div>
@@ -33,6 +32,7 @@ export default {
 	.footer {
 		background-color: $blue-600;
 		color: $white;
+		margin-top: auto;
 		padding: 10px 40px 10px 60px;
 		a {
 			color: $white;

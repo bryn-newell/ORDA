@@ -6,7 +6,6 @@ import Home from './components/Home.vue';
 import Services from './components/Services.vue';
 import iGPS from './components/iGPS.vue';
 import Clients from './components/Clients.vue';
-import Publications from './components/Publications.vue';
 import People from './components/People.vue';
 import PrivacyPolicy from './components/PrivacyPolicy.vue';
 import Terms from './components/Terms.vue';
@@ -20,7 +19,6 @@ const router = new VueRouter({
 		{ path: '/services', component: Services },
 		{ path: '/igps', component: iGPS },
 		{ path: '/clients', component: Clients },
-		{ path: '/publications', component: Publications },
 		{ path: '/people', component: People },
 		{ path: '/privacyPolicy', component: PrivacyPolicy },
 		{ path: '/terms', component: Terms }
